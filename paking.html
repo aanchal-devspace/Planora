@@ -5,13 +5,13 @@
     <title>Planora</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload ="loadbag()">
 
 <h1> Packing Checklist</h1>
 <div class="card">
 <input type="text" id="item" placeholder="Enter item">
 
-<button onclick="add()">Add Item</button>
+<button onclick="additem()">Add Item</button>
 <ul id="bag"></ul>
 <h3>Packing Progress</h3>
 <div class="bar">

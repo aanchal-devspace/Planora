@@ -8,12 +8,17 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 body{
 background:#0f172a;
 color:white;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+align-items:center;
+padding:30px;
+flex-direction:column;
 }
 
 .main{
 width:900px;
 margin:auto;
 padding:40px;
+align-items:center;
 text-align:center;
 }
 
