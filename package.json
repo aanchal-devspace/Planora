@@ -1,4 +1,13 @@
 {
+  "name": "planora",
+  "version": "1.0.0",
+  "description": "A basic travel planner",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aanchal",
+  "license": "ISC",
   "dependencies": {
     "express": "^5.2.1"
   }
