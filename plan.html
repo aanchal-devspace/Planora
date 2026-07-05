@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Planora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="loadTrip()">
+<h1>My Trip</h1>
+<div class="trip">
+
+<div class="card">
+<h2>Trip Details</h2>
+<p><b>Destination :</b> <span id="city"></span></p>
+<p><b>Start :</b> <span id="start"></span></p>
+<p><b>End :</b> <span id="end"></span></p>
+<p><b>Budget :</b> ₹<span id="budget"></span></p>
+<p><b>Travellers :</b> <span id="people"></span></p>
+
+</div>
+<div class="card">
+<h2>Trip Progress</h2>
+
+<div class="bar">
+<div id="fill"></div>
+</div>
+<p id="per">0% Completed</p>
+</div>
+
+</div>
+<div class="card">
+
+<h2>Today's Activities</h2>
+<input type="text" id="txt" placeholder="Add activity">
+<button onclick="add()">Add Activity</button>
+
+<ul id="list"></ul>
+</div>
+<div style="text-align:center;margin-top:30px;">
+
+<button id="next" onclick="window.location='packing.html'" disabled>
+Continue
+</button>
+</div>
+
+<script src="logic.js"></script>
+</body>
+</html>
