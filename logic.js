@@ -102,7 +102,7 @@ name:item,
 done:false
 });
 
-showBag();
+show();
 document.getElementById("item").value="";
 }
 
@@ -120,7 +120,7 @@ box.innerHTML+=`
 <li>
 <input type="checkbox" onchange="tick(${i})" ${bag[i].done?"checked":""}>
 ${bag[i].name}
-<button onclick="removeItem(${i})">Delete</button>
+<button onclick="remove(${i})">Delete</button>
 </li>
 `;
 }
@@ -142,7 +142,7 @@ document.getElementById("dash").disabled=true;
 
 function tick(i){
 bag[i].done=!bag[i].done;
-showBag();
+show();
 
 }
 function remove(i){

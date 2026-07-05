@@ -155,3 +155,31 @@ padding:8px 15px;
 margin-left:20px;
 font-size:14px;
 }
+#fill2{
+width:0%;
+height:100%;
+background:orange;
+transition:.5s;
+}
+
+#bag{
+margin-top:20px;
+}
+
+#bag li{
+margin:12px 0;
+font-size:18px;
+list-style:none;
+}
+
+#bag input{
+width:auto;
+margin-right:10px;
+}
+
+#bag button{
+width:auto;
+padding:6px 12px;
+margin-left:20px;
+font-size:14px;
+}
