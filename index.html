@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TripMate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+
+<h1> PLANORA </h1>
+<p class="tag">Plan Smart. Travel Better.</p>
+<div class="box">
+<label>Destination</label>
+<input type="text" id="city" placeholder="Enter destination">
+<label>Start Date</label>
+<input type="date" id="start">
+
+<label>End Date</label>
+<input type="date" id="end">
+<label>Budget (₹)</label>
+<input type="number" id="budget" placeholder="25000">
+<label>Travellers</label>
+<input type="number" id="people" placeholder="2">
+<button onclick="trip()">Create Trip</button>
+
+</div>
+<h2>Popular Destinations</h2>
+<div class="places">
+
+<div onclick="fill('Goa')">🏖 Goa</div>
+<div onclick="fill('Manali')">🏔 Manali</div>
+<div onclick="fill('Jaipur')">🏰 Jaipur</div>
+
+<div onclick="fill('Kerala')">🌴 Kerala</div>
+<div onclick="fill('Kashmir')">❄ Kashmir</div>
+<div onclick="fill('Dubai')">🌆 Dubai</div>
+
+</div>
+</div>
+<script src="logic.js"></script>
+
+</body>
+</html>
